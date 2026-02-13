@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-amber: #FFCA3A;
+  --color-brand-rose: #FF595E;
+  --color-brand-lime: #8AC926;
+  --color-brand-purple: #6A4C93;
+  --color-brand-blue: #1982C4;
+  
+  --font-ojuju: "Ojuju", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Custom Utilities if needed, or rely on Tailwind v4 arbitrary values */
+body {
+  font-family: var(--font-inter);
+  background-color: var(--color-brand-purple); /* As per the screenshot background */
+  color: white;
+}
