@@ -92,7 +92,7 @@ export const HeroSection = () => {
                             <div className="relative left-[10px] top-[10px]">
                                 <div className="w-[140px] h-[137px] relative">
                                     <RotatingMask
-                                        imageSrc="/img/img_02.png"
+                                        imageSrc={`${import.meta.env.BASE_URL}img/img_02.png`}
                                         svgPath={MASK_1_PATH}
                                         width={140}
                                         height={137}
@@ -107,7 +107,7 @@ export const HeroSection = () => {
                             <div className="relative left-[11px] top-[15px]">
                                 <div className="w-[147px] h-[146px] relative">
                                     <RotatingMask
-                                        imageSrc="/img/img_03.png"
+                                        imageSrc={`${import.meta.env.BASE_URL}img/img_03.png`}
                                         svgPath={MASK_2_PATH}
                                         width={147}
                                         height={146}
@@ -123,7 +123,7 @@ export const HeroSection = () => {
                             <div className="relative left-[9px] top-[20px]">
                                 <div className="w-[150px] h-[145px] relative">
                                     <RotatingMask
-                                        imageSrc="/img/img_01.png"
+                                        imageSrc={`${import.meta.env.BASE_URL}img/img_01.png`}
                                         svgPath={MASK_3_PATH}
                                         width={150}
                                         height={145}
